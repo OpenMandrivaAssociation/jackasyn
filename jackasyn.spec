@@ -5,7 +5,7 @@
 Name: 	 	jackasyn
 Summary: 	Asynchronous capabilities for Jack audio daemon
 Version: 	0.13
-Release: 	%{mkrel 1}
+Release: 	%{mkrel 2}
 Source:		http://gige.xdv.org/soft/libjackasyn/download/lib%{name}-%{version}.tar.gz
 URL:		http://gige.xdv.org/soft/libjackasyn
 License:	GPL+
@@ -52,6 +52,7 @@ Libraries and includes files for developing programs based on %{name}.
 
 %build
 %configure2_5x
+# parallel build doesn't work - AdamW 2008/08
 make
 										
 %install
