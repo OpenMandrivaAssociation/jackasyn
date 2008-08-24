@@ -52,7 +52,7 @@ Libraries and includes files for developing programs based on %{name}.
 
 %build
 %configure2_5x
-%make
+make
 										
 %install
 rm -rf %{buildroot}
