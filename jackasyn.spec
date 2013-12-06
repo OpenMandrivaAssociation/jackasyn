@@ -1,11 +1,12 @@
 %define major		0 
 %define libname		%mklibname %{name} %{major}
 %define develname	%mklibname %{name} -d
+%define debug_package          %{nil}
 
 Name:	 	jackasyn
 Summary:		Asynchronous capabilities for Jack audio daemon
 Version:		0.13
-Release:		4
+Release:		5
 Source0:		http://gige.xdv.org/soft/libjackasyn/download/lib%{name}-%{version}.tar.gz
 URL:		http://gige.xdv.org/soft/libjackasyn
 License:		GPLv2+
