@@ -8,7 +8,7 @@ Summary:		Asynchronous capabilities for Jack audio daemon
 Version:		0.13
 Release:		7
 Source0:		http://gige.xdv.org/soft/libjackasyn/download/lib%{name}-%{version}.tar.gz
-URL:		http://gige.xdv.org/soft/libjackasyn
+URL:		https://gige.xdv.org/soft/libjackasyn
 License:		GPLv2+
 Group:		Sound
 BuildRequires:	jackit-devel
